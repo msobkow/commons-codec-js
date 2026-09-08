@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>server.markhome.mcf</groupId>
     	<artifactId>server.markhome.mcf.v3_1</artifactId>
-		<version>3.1.42</version>
+		<version>3.1.42-2026-09-11-11:11:11Z</version>
 	</parent>
 	<groupId>server.markhome.mcf.v3_1</groupId>
 <!--
@@ -28,7 +28,7 @@
 	You may need to use the -U option to update your environment if you get an error.
 -->
 	<artifactId>commons-codec</artifactId>
-	<version>1.22.1</version>
+	<version>3.1.42-2026-09-11-11:11:11Z</version>
 	<name>Apache Commons Codec</name>
 	<inceptionYear>2002</inceptionYear>
 	<description>
@@ -92,9 +92,10 @@
 		</dependency>
 	</dependencies>
 	<properties>
+		<commons.rc.version>MCFRC1</commons.rc.version>
+		<project.build.outputTimestamp>2026-09-11-11:11:11Z</project.build.outputTimestamp>
 		<commons.distSvnStagingBase>scm:git:https://github.com/msobkow/</commons.distSvnStagingBase>
 		<commons.componentid>codec</commons.componentid>
-		<commons.rc.version>${env.buildString}</commons.rc.version>
 		<commons.distSvnStagingUrl>${commons.distSvnStagingBase}${commons.componentid}${commons.rc.version}</commons.distSvnStagingUrl>
 		<commons.module.name>org.apache.commons.${commons.componentid}</commons.module.name>
 		<commons.repo.name>commons-${commons.componentid}-js</commons.repo.name>
